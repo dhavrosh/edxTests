@@ -1,0 +1,1 @@
+dynamic tests for edX-site with help of Mocha.js and Selenium-Webdriver

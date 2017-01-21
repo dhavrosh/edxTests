@@ -1,0 +1,27 @@
+{
+  "name": "edX-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha index --timeout 30000",
+    "eslint:init": "./node_modules/.bin/eslint --init",
+    "eslint:start": "./node_modules/.bin/eslint"
+  },
+  "author": "dhavrosh",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.4",
+    "bluebird": "^3.4.7",
+    "chromedriver": "^2.25.2",
+    "geckodriver": "^1.2.0",
+    "mocha": "^3.2.0",
+    "phantomjs": "^2.1.7",
+    "selenium-webdriver": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
